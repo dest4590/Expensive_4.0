@@ -1,0 +1,31 @@
+{
+  "accessWidener": "expensive.accesswidener",
+  "schemaVersion": 1,
+  "id": "expensive-client",
+  "version": "0.1",
+  "name": "delta",
+  "description": "MinecraftClient Hacked client",
+  "authors": [
+    "j3fferson",
+    "dedinside"
+  ],
+  "contact": {
+    "website": "https://expensiveclient.su",
+    "repo": "none"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.expensive.core.Expensive"
+    ]
+  },
+  "mixins": [
+    "expensive-client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.expensive.asm.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractBlockMixin",
+    "ChatInputSuggestorMixin",
+    "ClientConnectionMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "EntityMixin",
+    "FireworkRocketEntityMixin",
+    "ItemMixin",
+    "KeyboardMixin",
+    "LivingEntityMixin",
+    "MinecraftServerMixin",
+    "PlayerEntityMixin",
+    "accessors.LivingEntityAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "CameraMixin",
+    "ChatScreenMixin",
+    "DeathScreenMixin",
+    "GameRendererMixin",
+    "HandledScreenMixin",
+    "HeldItemRendererMixin",
+    "InGameMixin",
+    "InputMixin",
+    "KeyboardInputMixin",
+    "MinecraftClientMixin",
+    "ScreenMixin",
+    "ShaderProgramMixin",
+    "TitleScreenMixin",
+    "accessors.GameRendererAccessor",
+    "accessors.MinecraftClientAccessor",
+    "accessors.NativeImageAccessor",
+    "accessors.ShaderProgramAccessor",
+    "accessors.TypeAccessor"
+  ]
+}
